@@ -11,7 +11,7 @@ function openBox() {
     setTimeout(function() {
         console.log('Redirecting to another page');
         window.location.href = 'newpage.html'; // 새로운 페이지로 리디렉션
-    }, 3000); // GIF 애니메이션의 길이에 맞춰서 조정 (여기서는 3초로 설정)
+    }, 5000); // 애니메이션 길이에 맞춰 타이머 조정 (여기서는 5초로 설정)
 }
 
 function openMultipleBoxes() {
@@ -27,12 +27,13 @@ function openMultipleBoxes() {
     setTimeout(function() {
         console.log('Redirecting to another page');
         window.location.href = 'newpage.html'; // 새로운 페이지로 리디렉션
-    }, 3000); // GIF 애니메이션의 길이에 맞춰서 조정 (여기서는 3초로 설정)
+    }, 5000); // 애니메이션 길이에 맞춰 타이머 조정 (여기서는 5초로 설정)
 }
 
 document.addEventListener('DOMContentLoaded', function() {
     console.log('Document loaded');
 });
+
 
 
 
